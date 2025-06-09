@@ -1,3 +1,3 @@
 print("hello")
-print("sum hrloojlbjkm;")
+print(3)
 print("hi \nhello")
