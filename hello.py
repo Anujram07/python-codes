@@ -46,15 +46,54 @@
 
 
 
-def fact(n):
-    """hello this is program for a factoial"""
-    if(n==0 or n==1):
-        return 1
+# def fact(n):
+#     """hello this is program for a factoial"""
+#     if(n==0 or n==1):
+#         return 1
     
-    return n*fact(n-1)
+#     return n*fact(n-1)
     
 
 
-print(fact(5))
+# print(fact(5))
+# # help(fact)
 # help(fact)
-help(fact)
+
+
+# a = int(input("Enter a number:"))
+# prime =True
+# for i in range(2,a):
+#     if i % a == 0:
+#        print("is a prime ")
+#        break;
+#     else:
+#        print("not a prime")
+#        break;
+
+# i = 0
+# for i in range(0,100):
+#     if i%2!=0:
+#         print(i)
+
+# a = int(input("Enter a number:"))
+# sum = 0
+# while(a>0):
+#     digit = a%10
+#     sum = sum + digit
+#     a = a//10
+# print(sum)
+
+# a = input("Enter a number:")
+# sum  = 0
+# for a in str(a):
+#     sum = sum + int(a)
+# print(sum)
+
+def fib(n):
+    a,b = 0,1
+    while(a<n):
+        print(a)
+        a,b = b,b+a
+
+
+(fib(20))
