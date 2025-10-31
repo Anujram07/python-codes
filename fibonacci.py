@@ -1,9 +1,12 @@
-def fib(n):
-    # base case of recursion
-    if(n==0 or n==1):
-        return n
-    return fib(n-2) + fib(n-1)
+def fibonacci(num):
+    return num if num <=1 else fibonacci(num-1) + fibonacci(num-2)
 
 
 
-print(fib(15))
+
+
+
+
+nterms = 10
+for num in range(nterms):
+    print(fibonacci(num))

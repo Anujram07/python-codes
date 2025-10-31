@@ -96,4 +96,43 @@ def fib(n):
         a,b = b,b+a
 
 
-(fib(20))
+# (fib(20))
+
+
+
+#sum of n natural numbers
+
+def sum(n):
+    # base case
+    if n == 0:
+        return 0
+    else:
+        return n + sum(n - 1)
+
+# n = 10
+# print(sum(n))
+
+
+def print_1_to_n(n):
+    # base case
+    if n == 0:
+        return
+    else:
+        print_1_to_n(n - 1)
+        print(n)
+
+# print_1_to_n(10)
+
+
+
+def print_n_to_1(n):
+    # base case
+    if n == 0:
+        return
+    else:
+        print(n)
+        print_n_to_1(n - 1)
+
+# print_n_to_1(10)
+
+
