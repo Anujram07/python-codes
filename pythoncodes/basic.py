@@ -7,4 +7,23 @@ for i in list0:
         arr.append(i)
     
 list0.extend(arr)
-print(list0)
+# print(list0)
+
+
+
+name = ["anuj","lucky","nitin","prayag","deepak"]
+char = input("Enter a alphabet:-")
+names = []
+count = 0
+
+for x in name:
+    if char in  x:
+        names.append(x)
+        count = count + x.count(char)
+        
+
+if count > 0:
+    print(char , " -> " , count , "in ", names )
+else:
+    print("Alphabet not found")
+
